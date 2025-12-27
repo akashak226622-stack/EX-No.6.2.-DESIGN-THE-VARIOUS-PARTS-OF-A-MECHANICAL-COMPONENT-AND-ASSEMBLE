@@ -1,54 +1,54 @@
-# EX No.6.2.DESIGN THE VARIOUS PARTS OF A MECHANICAL COMPONENT AND ASSEMBLE
-## DATE:
+# Ex.No.  - SIMULATION OF POST PROCESSING IN ADDITIVE MANUFACTURING
+
+### DATE: 21/12/2025
 
 ## AIM: 
-To Design the various parts of a mechanical component and assemble it using a bottom-up approach then convert it into the orthographic view
+### To simulate the post processing of 3d printed parts via support Removal, UV Curing & Heat Treatment.
 
-## REQUIREMENTS: 
-1. Autodesk fusion 360
-2. Windows 10
-3. 4 GB of RAM (integrated graphics recommend 6 GB or more)
-4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
-
-## COMMANDS USED:
-### Align: 
-The Align tool allows you to align, distribute or organize selected elements, annotations, tags and text along the axis you specify. Furthermore, the Arrange feature will automatically neatly place your tags around the current view.
-The Align plug-in for Autodesk® Revit® can help to save time while producing complex drawings with large sets of annotation.
-Just select a few elements and the Align tool will sort them for you.
-
-### Derive:
-Insert design elements such as Components, Bodies, Sketches, Work geometry, Flat patterns or parameters from another design.
-The inserted elements update with changes to the original design
-
-### Move: Moves the selected face, body, sketch, or construction geometry a specified distance or angle.
-Select the objects to modify then specify the distance or angle. Use set pivot to reposition the manipulator
+## REQUIREMENTS:
+### System - Windows 7 or higher, 1 GB RAM.
 
 ## PROCEDURE:
-### STEP 1: 
- Identifying the given model.
 
-### STEP 2: Importing the components.
-Firstly, we import all the necessary parts into the assembly project. Here, we use Finger, gear linkage, Secondary Linkage, Base. For, Importing the components into the project, we use the insert derive option in the Insert>Insert Derive.
+## Procedure for support removal
+### 1.	Select support removal from the list.
+### 2.	All the parts related to support removal are shown on the screen.
+### 3.	Select the parts in sequence in which they are shown.
+### 4.	When the first part is selected then it will open in the blank space in the left side of the screen.
+### 5.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
 
-### STEP 3: 
-We place the base model onto the X-Y plane.
+## Procedure for UV Curing
+### 1.	Select UV curing from the list.
+### 2.	All the parts related to UV curing are shown on the screen.
+### 3.	Select the parts in sequence in which they are shown.
+### 4.	When the first part will be selected then it will open in the blank space on the left side of the screen.
+### 5.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
 
-### STEP 4: Aligning the components
-Then we align the imported, Gear linkage model, in its respective slot of the base.
-For aligning the component onto the base, we use the align option, available in Modify>Align.
-For aligning the component onto the base, we first select the “from” coordinates then we select the “To” coordinates in the given base model. At first, the model might not align properly, so, we use the flip option to bring the component to the desired position.
+## Procedure for heat treatment
+### 1.	Select heat treatment from the list.
+### 2.	All the parts related to heat treatment are shown on the screen.
+### 3.	Select the parts in sequence in which they are shown.
+### 4.	When the first part is selected then it will open in the blank space in the left side of the screen.
+### 5.	If the user follows an incorrect sequence then a pop-up will appear on the screen showing the name of the part to be selected.
 
-### STEP 5: 
-We follow the same steps for aligning the components onto their respective      slots on the base component.
+## OUTPUT :
 
-### Note: 
-If the components do not fit properly into the slots, it can be moved into the slot using the Move option.
+## Support Removal Process
+![1234_1](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/772fb2a3-62b2-4654-8777-d06c89da300e)
+![1234_2](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/54ddd8f1-cf4e-4812-9573-129f16839b59)
 
-## INPUT: 
-![image](https://user-images.githubusercontent.com/113594316/199641859-1ebade5e-7bb4-4047-aa4b-89ae1d934ba0.png)
+## UV Curing of 3D printed part
+![1234_1](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/b8aaa899-f319-4192-9dd7-126717137bfd)
+![1234_2](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/5fa69c3d-4e61-4226-b2ad-b0765c0cd498)
 
-## OUTPUT:
-<img width="1085" height="768" alt="image" src="https://github.com/user-attachments/assets/98549d74-05d1-4370-accc-add5c7d27ea1" />
+## Heat Treatment of 3D printed part
+![123_1](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/22c2fbe1-2159-46bf-b6aa-d7704484aa8a)
+![123_2](https://github.com/Sellakumar1987/Ex.No.9---SIMULATION-OF-POST--PROCESSING-IN-ADDITIVE-MANUFACTURING/assets/113594316/2801d001-e6cd-4b6c-9d5f-712067d3bc3c)
 
-## RESULT:
-Thus, a design of various parts of a mechanical component and assemble it using a bottom-up approach in orthographic view has been done
+## Output:
+![image](https://github.com/user-attachments/assets/9feabf5f-8077-49e6-a500-47771c9235de)
+
+### Name: AKASH.A
+### Register Number:25014845
+## Result: 
+### Thus the simulation on the Postprocessing in additive manufacturing is completed.
